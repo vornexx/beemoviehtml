@@ -3,13 +3,14 @@ body {
   font-family: Arial, sans-serif;
   background-color: #111;
   color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
 
@@ -22,5 +23,6 @@ body {
 }
 
 .dark-mode {
-  filter: invert(1);
+  background-color: #111;
+  color: #fff;
 }
