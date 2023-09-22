@@ -1,28 +1,41 @@
+/* styles.css */
+
+/* Set the background color to black */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #fff;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: black;
+    color: white; /* Set text color to white for better visibility on a black background */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+/* Change the color of selected text */
+::selection {
+    background-color: #eebebe; /* Set the background color to #eebebe (muted pink) */
+    color: black; /* Set the text color to black for better visibility when selected */
 }
 
-.content {
-  background-color: #222;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 70%;
+/* Change the color of selected text for older versions of IE */
+::-moz-selection {
+    background-color: #eebebe; /* Set the background color to #eebebe (muted pink) */
+    color: black; /* Set the text color to black for better visibility when selected */
 }
 
-.dark-mode {
-  background-color: #111;
-  color: #fff;
+/* Style the header, nav, and footer if needed */
+header {
+    /* Add header styles here */
 }
+
+nav {
+    /* Add navigation styles here */
+}
+
+footer {
+    /* Add footer styles here */
+}
+
+/* Style the h1 and h2 elements if needed */
+h1, h2 {
+    /* Add styles for these headings if needed */
+}
+
+/* Add more styles as necessary for your specific elements */
